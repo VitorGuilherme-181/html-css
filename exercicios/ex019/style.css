@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+
+
+body {
+    background-color: rgb(167, 230, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(26, 136, 26);
+}
+
+h1#prin {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2 {
+    color: rgb(45, 102, 42);
+}
+
+.basico {
+      color: #3c805e;
+      
+}
+
+.intermed{
+    color: rgb(131, 131, 57);
+}
+
+.avanc{
+    color: rgb(126, 58, 58);
+}
+.destaque {
+    background-color: rgb(189, 189, 30);
+}
