@@ -6,11 +6,13 @@
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10vw;
+    font-size: 7vw;
     text-align: center;
     background-color: black;
     color: white;
+    height: 225px;
     padding-top: 40px;
+    
             
 }
 h1 > p {
@@ -24,41 +26,57 @@ h1 > p {
 }
 
  section {
-    font-size: 1.5em;
-    padding-left: 2%;
+    font-size: 4vw;
+    line-height: 2.5cm;
+    
+    padding-left: 20px;
+    padding-bottom: 7%;
+
         
 }
 
 #img1 {
     background: url(imagens/background001.jpg) center center no-repeat fixed;
-    height: 450px;
+    height: 800px;
     background-position: center center;
-    box-shadow: black 1px 1px 1px 1px
+    box-shadow: rgba(2, 2, 2, 0.397) 1px 1px 1px 1px
 }
 
 #img2 {
     background-image: url(imagens/background002.jpg);
-    height: 450px;
+    height: 800px;
     background-position: center center;
     
 }
 #txt1 {
-    height: 300px;
-    background-color: rgba(211, 211, 211, 0.082);
+    height: 730px;
+    background-color: rgba(0, 0, 0, 0.432);
     display: inline-block;
     color: white;
     padding-top: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
 #txt2{
-    color: black;
-    text-align: justify;
+    color: rgb(255, 255, 255);
+    height: 730px;
+    background-color:rgba(0, 0, 0, 0.466);
+    padding-top: 120px;
+    display: inline-block;
+
+    
+    
 }
 
 section >p#texto {
     color: black;
 }
-p{
-    padding-top: 20px;
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
