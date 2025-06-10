@@ -1,12 +1,22 @@
+@charset "UTF-8";
+
 *{
     margin: 0%;
     border: 0%;
     padding: 0%;
+    
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 7vw;
+   
+    font-size: 5em;
     text-align: center;
     background-color: black;
     color: white;
@@ -26,8 +36,7 @@ h1 > p {
 }
 
  section {
-    font-size: 4vw;
-    line-height: 2.5cm;
+    font-size: 2.5vw;
     
     padding-left: 20px;
     padding-bottom: 7%;
@@ -37,36 +46,36 @@ h1 > p {
 
 #img1 {
     background: url(imagens/background001.jpg) center center no-repeat fixed;
-    height: 800px;
-    background-position: center center;
-    box-shadow: rgba(2, 2, 2, 0.397) 1px 1px 1px 1px
+    height: 450px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #img2 {
     background-image: url(imagens/background002.jpg);
-    height: 800px;
-    background-position: center center;
+    height: 450px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 #txt1 {
-    height: 730px;
+   
     background-color: rgba(0, 0, 0, 0.432);
     display: inline-block;
     color: white;
     padding-top: 120px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 }
 
 #txt2{
     color: rgb(255, 255, 255);
-    height: 730px;
+    height: 350px;
     background-color:rgba(0, 0, 0, 0.466);
-    padding-top: 120px;
+    padding-top: 120px; 
     display: inline-block;
-
-    
-    
 }
 
 section >p#texto {
